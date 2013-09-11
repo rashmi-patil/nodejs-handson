@@ -12,11 +12,10 @@ database: 'testdb'
 
 exports.login_action = 
   function (req, res) {
-        //console.log(req.body);
-	//res.render('login',{title:'farmer login action '+req.body.username+' AND Password='+req.body.password})
-   connection.connect();
-	var query = 'SELECT * FROM tblusers WHERE UserName="'+req.body.username+'" AND Password="'+req.body.password+'"';
-  console.log(query);
+        
+   var connect = function(connection) {connection.connect();}
+   var query = 'SELECT * FROM tblusers WHERE UserName="'+req.body.username+'" AND Password="'+req.body.password+'"';
+   console.log(query);
    connection.query(query, function (error, rows, fields) { 
 	 if(!error){
 		res.writeHead(200,{'Content-Type':'text/plain'});
@@ -31,8 +30,6 @@ exports.login_action =
 	 console.log(error);
 	 }
 	});
-	//res.render('login',{title:'farmer login '});
-
     
   };
 
