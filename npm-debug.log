@@ -1,0 +1,790 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'nodeman' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose cache add [ 'nodeman', null ]
+5 verbose cache add name=undefined spec="nodeman" args=["nodeman",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodeman',
+6 verbose parsed url   path: 'nodeman',
+6 verbose parsed url   href: 'nodeman' }
+7 silly lockFile c080ce16-nodeman nodeman
+8 verbose lock nodeman /home/rashmi/.npm/c080ce16-nodeman.lock
+9 silly lockFile c080ce16-nodeman nodeman
+10 silly lockFile c080ce16-nodeman nodeman
+11 verbose addNamed [ 'nodeman', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 9443f39e-nodeman nodeman@
+14 verbose lock nodeman@ /home/rashmi/.npm/9443f39e-nodeman.lock
+15 silly addNameRange { name: 'nodeman', range: '*', hasData: false }
+16 verbose url raw nodeman
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nodeman' ]
+18 verbose url resolved https://registry.npmjs.org/nodeman
+19 info trying registry request attempt 1 at 14:38:33
+20 http GET https://registry.npmjs.org/nodeman
+21 http 200 https://registry.npmjs.org/nodeman
+22 silly registry.get cb [ 200,
+22 silly registry.get   { vary: 'Accept',
+22 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+22 silly registry.get     etag: '"AR9O5YXZOLOPWC6027QDFM1NH"',
+22 silly registry.get     date: 'Wed, 04 Sep 2013 21:38:34 GMT',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'content-length': '90188' } ]
+23 silly addNameRange number 2 { name: 'nodeman', range: '*', hasData: true }
+24 silly addNameRange versions [ 'nodeman',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.0-1',
+24 silly addNameRange     '1.0.0-2',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '1.0.9',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.0.3-p1' ] ]
+25 verbose addNamed [ 'nodeman', '1.1.2' ]
+26 verbose addNamed [ '1.1.2', '1.1.2' ]
+27 silly lockFile 0d5fc0f0-nodeman-1-1-2 nodeman@1.1.2
+28 verbose lock nodeman@1.1.2 /home/rashmi/.npm/0d5fc0f0-nodeman-1-1-2.lock
+29 silly lockFile d2d4d0cc-js-org-nodeman-nodeman-1-1-2-tgz https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz
+30 verbose lock https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz /home/rashmi/.npm/d2d4d0cc-js-org-nodeman-nodeman-1-1-2-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz',
+31 verbose addRemoteTarball   '78128508f7540dbbffbf7f1093222e09d58e1b64' ]
+32 info retry fetch attempt 1 at 14:38:34
+33 verbose fetch to= /home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz
+34 http GET https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz
+35 http 200 https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz
+36 verbose tar unpack /home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz
+37 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+38 verbose lock tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package /home/rashmi/.npm/5af2738c-14568-0-8148142341524363-package.lock
+39 silly lockFile 8e7b4d52-14568-0-8148142341524363-tmp-tgz tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz
+40 verbose lock tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz /home/rashmi/.npm/8e7b4d52-14568-0-8148142341524363-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry Gruntfile.coffee
+47 silly gunzTarPerm extractEntry bin/bot
+48 silly gunzTarPerm extractEntry bin/bot2
+49 silly gunzTarPerm extractEntry bin/nodeman
+50 silly gunzTarPerm extractEntry bin/_nodeman
+51 silly gunzTarPerm extractEntry .travis.yml
+52 silly gunzTarPerm extractEntry config.json
+53 silly gunzTarPerm extractEntry lib/nodeman.js
+54 silly gunzTarPerm extractEntry lib/showdown.js
+55 silly gunzTarPerm extractEntry lib/mustache.js
+56 silly gunzTarPerm extractEntry lib/extensions/twitter.js
+57 silly gunzTarPerm extractEntry lib/extensions/table.js
+58 silly gunzTarPerm extractEntry lib/extensions/github.js
+59 silly gunzTarPerm extractEntry lib/extensions/prettify.js
+60 silly gunzTarPerm extractEntry docs/node-expat.meta.js
+61 silly gunzTarPerm extractEntry docs/js-yaml.meta.js
+62 silly gunzTarPerm extractEntry docs/underscore.meta.js
+63 silly gunzTarPerm extractEntry docs/formidable.meta.js
+64 silly gunzTarPerm extractEntry docs/colors.meta.js
+65 silly gunzTarPerm extractEntry docs/passport-google-oauth.meta.js
+66 silly gunzTarPerm extractEntry docs/mysql.meta.js
+67 silly gunzTarPerm extractEntry docs/stylus.meta.js
+68 silly gunzTarPerm extractEntry docs/fileutils.js
+69 silly gunzTarPerm extractEntry docs/timers.meta.js
+70 silly gunzTarPerm extractEntry docs/mocha.meta.js
+71 silly gunzTarPerm extractEntry docs/prompt.meta.js
+72 silly gunzTarPerm extractEntry docs/uglify-js.meta.js
+73 silly gunzTarPerm extractEntry docs/step.meta.js
+74 silly gunzTarPerm extractEntry docs/url.meta.js
+75 silly gunzTarPerm extractEntry docs/mongoose.meta.js
+76 silly gunzTarPerm extractEntry docs/lazy.meta.js
+77 silly gunzTarPerm extractEntry docs/buffertools.meta.js
+78 silly gunzTarPerm extractEntry docs/redis.meta.js
+79 silly gunzTarPerm extractEntry docs/cli.meta.js
+80 silly gunzTarPerm extractEntry docs/sprintf.meta.js
+81 silly gunzTarPerm extractEntry docs/websocket.meta.js
+82 silly gunzTarPerm extractEntry docs/coffee-script.meta.js
+83 silly gunzTarPerm extractEntry docs/googleanalytics.meta.js
+84 silly gunzTarPerm extractEntry docs/mongoskin.meta.js
+85 silly gunzTarPerm extractEntry docs/imagemagick.meta.js
+86 silly gunzTarPerm extractEntry docs/hashish.meta.js
+87 silly gunzTarPerm extractEntry docs/mu2.meta.js
+88 silly gunzTarPerm extractEntry docs/addons.meta.js
+89 silly gunzTarPerm extractEntry docs/zlib.meta.js
+90 silly gunzTarPerm extractEntry docs/forever.meta.js
+91 silly gunzTarPerm extractEntry docs/bcrypt.meta.js
+92 silly gunzTarPerm extractEntry docs/wordwrap.meta.js
+93 silly gunzTarPerm extractEntry docs/socket.io.meta.js
+94 silly gunzTarPerm extractEntry docs/rimraf.meta.js
+95 silly gunzTarPerm extractEntry docs/ejs.js
+96 silly gunzTarPerm extractEntry docs/process.meta.js
+97 silly gunzTarPerm extractEntry docs/through.meta.js
+98 silly gunzTarPerm extractEntry docs/byline.meta.js
+99 silly gunzTarPerm extractEntry docs/fibers.meta.js
+100 silly gunzTarPerm extractEntry docs/restler.meta.js
+101 silly gunzTarPerm extractEntry docs/bower.meta.js
+102 silly gunzTarPerm extractEntry docs/cradle.meta.js
+103 silly gunzTarPerm extractEntry docs/base64.meta.js
+104 silly gunzTarPerm extractEntry docs/os.meta.js
+105 silly gunzTarPerm extractEntry docs/q.meta.js
+106 silly gunzTarPerm extractEntry docs/punycode.meta.js
+107 silly gunzTarPerm extractEntry docs/assert.meta.js
+108 silly gunzTarPerm extractEntry docs/glob.meta.js
+109 silly gunzTarPerm extractEntry docs/wrench.meta.js
+110 silly gunzTarPerm extractEntry docs/xml2js.meta.js
+111 silly gunzTarPerm extractEntry docs/repl.meta.js
+112 silly gunzTarPerm extractEntry docs/consolidate.meta.js
+113 silly gunzTarPerm extractEntry docs/commander.meta.js
+114 silly gunzTarPerm extractEntry docs/cluster.meta.js
+115 silly gunzTarPerm extractEntry docs/debugger.meta.js
+116 silly gunzTarPerm extractEntry docs/diff.meta.js
+117 silly gunzTarPerm extractEntry docs/optimist.meta.js
+118 silly gunzTarPerm extractEntry docs/child_process.meta.js
+119 silly gunzTarPerm extractEntry docs/http.meta.js
+120 silly gunzTarPerm extractEntry docs/mime.meta.js
+121 silly gunzTarPerm extractEntry docs/readline.meta.js
+122 silly gunzTarPerm extractEntry docs/vows.meta.js
+123 silly gunzTarPerm extractEntry docs/tar.meta.js
+124 silly gunzTarPerm extractEntry docs/http-proxy.meta.js
+125 silly gunzTarPerm extractEntry docs/https.meta.js
+126 silly gunzTarPerm extractEntry docs/tls.meta.js
+127 silly gunzTarPerm extractEntry docs/moment.meta.js
+128 silly gunzTarPerm extractEntry docs/restify.meta.js
+129 silly gunzTarPerm extractEntry docs/cron.meta.js
+130 silly gunzTarPerm extractEntry docs/pkginfo.meta.js
+131 silly gunzTarPerm extractEntry docs/debug.meta.js
+132 silly gunzTarPerm extractEntry docs/passport-facebook.meta.js
+133 silly gunzTarPerm extractEntry docs/tap.meta.js
+134 silly gunzTarPerm extractEntry docs/dns.meta.js
+135 silly gunzTarPerm extractEntry docs/winston.meta.js
+136 silly gunzTarPerm extractEntry docs/graceful-fs.js
+137 silly gunzTarPerm extractEntry docs/emailjs.js
+138 silly gunzTarPerm extractEntry docs/globals.meta.js
+139 silly gunzTarPerm extractEntry docs/cheerio.meta.js
+140 silly gunzTarPerm extractEntry docs/sqlite3.meta.js
+141 silly gunzTarPerm extractEntry docs/temp.meta.js
+142 silly gunzTarPerm extractEntry docs/traverse.meta.js
+143 silly gunzTarPerm extractEntry docs/mongodb.meta.js
+144 silly gunzTarPerm extractEntry docs/nodemailer.meta.js
+145 silly gunzTarPerm extractEntry docs/qs.meta.js
+146 silly gunzTarPerm extractEntry docs/dgram.meta.js
+147 silly gunzTarPerm extractEntry docs/async.meta.js
+148 silly gunzTarPerm extractEntry docs/jshashes.meta.js
+149 silly gunzTarPerm extractEntry docs/buffer.meta.js
+150 silly gunzTarPerm extractEntry docs/semver.meta.js
+151 silly gunzTarPerm extractEntry docs/fs.meta.js
+152 silly gunzTarPerm extractEntry docs/iconv.meta.js
+153 silly gunzTarPerm extractEntry docs/nopt.meta.js
+154 silly gunzTarPerm extractEntry docs/node-uuid.meta.js
+155 silly gunzTarPerm extractEntry docs/util.meta.js
+156 silly gunzTarPerm extractEntry docs/eco.meta.js
+157 silly gunzTarPerm extractEntry docs/express.meta.js
+158 silly gunzTarPerm extractEntry docs/ejs.meta.js
+159 silly gunzTarPerm extractEntry docs/i18n.meta.js
+160 silly gunzTarPerm extractEntry docs/should.meta.js
+161 silly gunzTarPerm extractEntry docs/minimatch.meta.js
+162 silly gunzTarPerm extractEntry docs/marked.meta.js
+163 silly gunzTarPerm extractEntry docs/custom.js
+164 silly gunzTarPerm extractEntry docs/handlebars.meta.js
+165 silly gunzTarPerm extractEntry docs/jsdom.meta.js
+166 silly gunzTarPerm extractEntry docs/domain.meta.js
+167 silly gunzTarPerm extractEntry docs/file.meta.js
+168 silly gunzTarPerm extractEntry docs/event-stream.meta.js
+169 silly gunzTarPerm extractEntry docs/JSONStream.meta.js
+170 silly gunzTarPerm extractEntry docs/pg.meta.js
+171 silly gunzTarPerm extractEntry docs/eventemitter2.meta.js
+172 silly gunzTarPerm extractEntry docs/net.meta.js
+173 silly gunzTarPerm extractEntry docs/fibrous.js
+174 silly gunzTarPerm extractEntry docs/stream.meta.js
+175 silly gunzTarPerm extractEntry docs/markdown.meta.js
+176 silly gunzTarPerm extractEntry docs/stdio.meta.js
+177 silly gunzTarPerm extractEntry docs/zombie.meta.js
+178 silly gunzTarPerm extractEntry docs/events.meta.js
+179 silly gunzTarPerm extractEntry docs/hljs.meta.js
+180 silly gunzTarPerm extractEntry docs/jade.meta.js
+181 silly gunzTarPerm extractEntry docs/connect.meta.js
+182 silly gunzTarPerm extractEntry docs/filed.meta.js
+183 silly gunzTarPerm extractEntry docs/bufferjs.meta.js
+184 silly gunzTarPerm extractEntry docs/dateformat.meta.js
+185 silly gunzTarPerm extractEntry docs/path.meta.js
+186 silly gunzTarPerm extractEntry docs/request.meta.js
+187 silly gunzTarPerm extractEntry docs/crypto.meta.js
+188 silly gunzTarPerm extractEntry docs/fs-extra.meta.js
+189 silly gunzTarPerm extractEntry docs/findit.meta.js
+190 silly gunzTarPerm extractEntry docs/modules.meta.js
+191 silly gunzTarPerm extractEntry docs/mkdirp.meta.js
+192 silly gunzTarPerm extractEntry docs/ansi-color.meta.js
+193 silly gunzTarPerm extractEntry docs/sax.meta.js
+194 silly gunzTarPerm extractEntry docs/string_decoder.meta.js
+195 silly gunzTarPerm extractEntry docs/vm.meta.js
+196 silly gunzTarPerm extractEntry docs/knox.meta.js
+197 silly gunzTarPerm extractEntry docs/walkdir.meta.js
+198 silly gunzTarPerm extractEntry docs/emailjs.meta.js
+199 silly gunzTarPerm extractEntry docs/tty.meta.js
+200 silly gunzTarPerm extractEntry docs/querystring.meta.js
+201 silly gunzTarPerm extractEntry docs/passport-twitter.meta.js
+202 silly gunzTarPerm extractEntry docs/mime.md
+203 silly gunzTarPerm extractEntry docs/events.md
+204 silly gunzTarPerm extractEntry docs/minimatch.md
+205 silly gunzTarPerm extractEntry docs/bufferjs.md
+206 silly gunzTarPerm extractEntry docs/walkdir.md
+207 silly gunzTarPerm extractEntry docs/tty.md
+208 silly gunzTarPerm extractEntry docs/connect.md
+209 silly gunzTarPerm extractEntry docs/pkginfo.md
+210 silly gunzTarPerm extractEntry docs/mocha.md
+211 silly gunzTarPerm extractEntry docs/prompt.md
+212 silly gunzTarPerm extractEntry docs/through.md
+213 silly gunzTarPerm extractEntry docs/zlib.md
+214 silly gunzTarPerm extractEntry docs/wordwrap.md
+215 silly gunzTarPerm extractEntry docs/xml2js.md
+216 silly gunzTarPerm extractEntry docs/optimist.md
+217 silly gunzTarPerm extractEntry docs/ansi-color.md
+218 silly gunzTarPerm extractEntry docs/JSONStream.md
+219 silly gunzTarPerm extractEntry docs/repl.md
+220 silly gunzTarPerm extractEntry docs/eco.md
+221 silly gunzTarPerm extractEntry docs/pg.md
+222 silly gunzTarPerm extractEntry docs/process.md
+223 silly gunzTarPerm extractEntry docs/mu2.md
+224 silly gunzTarPerm extractEntry docs/util.md
+225 silly gunzTarPerm extractEntry docs/os.md
+226 silly gunzTarPerm extractEntry docs/querystring.md
+227 silly gunzTarPerm extractEntry docs/cheerio.md
+228 silly gunzTarPerm extractEntry docs/mongoskin.md
+229 silly gunzTarPerm extractEntry docs/wrench.md
+230 silly gunzTarPerm extractEntry docs/stylus.md
+231 silly gunzTarPerm extractEntry docs/googleanalytics.md
+232 silly gunzTarPerm extractEntry docs/diff.md
+233 silly gunzTarPerm extractEntry docs/moment.md
+234 silly gunzTarPerm extractEntry docs/dateformat.md
+235 silly gunzTarPerm extractEntry docs/modules.md
+236 silly gunzTarPerm extractEntry docs/semver.md
+237 silly gunzTarPerm extractEntry docs/string_decoder.md
+238 silly gunzTarPerm extractEntry docs/cluster.md
+239 silly gunzTarPerm extractEntry docs/uglify-js.md
+240 silly gunzTarPerm extractEntry docs/restler.md
+241 silly gunzTarPerm extractEntry docs/net.md
+242 silly gunzTarPerm extractEntry docs/dns.md
+243 silly gunzTarPerm extractEntry docs/zombie.md
+244 silly gunzTarPerm extractEntry docs/underscore.md
+245 silly gunzTarPerm extractEntry docs/jshashes.md
+246 silly gunzTarPerm extractEntry docs/express.md
+247 silly gunzTarPerm extractEntry docs/path.md
+248 silly gunzTarPerm extractEntry docs/ejs.md
+249 silly gunzTarPerm extractEntry docs/mongoose.md
+250 silly gunzTarPerm extractEntry docs/vm.md
+251 silly gunzTarPerm extractEntry docs/dgram.md
+252 silly gunzTarPerm extractEntry docs/glob.md
+253 silly gunzTarPerm extractEntry docs/buffertools.md
+254 silly gunzTarPerm extractEntry docs/mysql.md
+255 silly gunzTarPerm extractEntry docs/coffee-script.md
+256 silly gunzTarPerm extractEntry docs/eventemitter2.md
+257 silly gunzTarPerm extractEntry docs/mongodb.md
+258 silly gunzTarPerm extractEntry docs/lazy.md
+259 silly gunzTarPerm extractEntry docs/temp.md
+260 silly gunzTarPerm extractEntry docs/child_process.md
+261 silly gunzTarPerm extractEntry docs/tap.md
+262 silly gunzTarPerm extractEntry docs/formidable.md
+263 silly gunzTarPerm extractEntry docs/imagemagick.md
+264 silly gunzTarPerm extractEntry docs/stdio.md
+265 silly gunzTarPerm extractEntry docs/vows.md
+266 silly gunzTarPerm extractEntry docs/debug.md
+267 silly gunzTarPerm extractEntry docs/tar.md
+268 silly gunzTarPerm extractEntry docs/bcrypt.md
+269 silly gunzTarPerm extractEntry docs/request.md
+270 silly gunzTarPerm extractEntry docs/consolidate.md
+271 silly gunzTarPerm extractEntry docs/commander.md
+272 silly gunzTarPerm extractEntry docs/punycode.md
+273 silly gunzTarPerm extractEntry docs/stream.md
+274 silly gunzTarPerm extractEntry docs/crypto.md
+275 silly gunzTarPerm extractEntry docs/cradle.md
+276 silly gunzTarPerm extractEntry docs/findit.md
+277 silly gunzTarPerm extractEntry docs/assert.md
+278 silly gunzTarPerm extractEntry docs/hashish.md
+279 silly gunzTarPerm extractEntry docs/jade.md
+280 silly gunzTarPerm extractEntry docs/buffer.md
+281 silly gunzTarPerm extractEntry docs/sprintf.md
+282 silly gunzTarPerm extractEntry docs/sqlite3.md
+283 silly gunzTarPerm extractEntry docs/restify.md
+284 silly gunzTarPerm extractEntry docs/iconv.md
+285 silly gunzTarPerm extractEntry docs/cron.md
+286 silly gunzTarPerm extractEntry docs/bower.md
+287 silly gunzTarPerm extractEntry docs/handlebars.md
+288 silly gunzTarPerm extractEntry docs/base64.md
+289 silly gunzTarPerm extractEntry docs/websocket.md
+290 silly gunzTarPerm extractEntry docs/timers.md
+291 silly gunzTarPerm extractEntry docs/hljs.md
+292 silly gunzTarPerm extractEntry docs/passport-facebook.md
+293 silly gunzTarPerm extractEntry docs/should.md
+294 silly gunzTarPerm extractEntry docs/i18n.md
+295 silly gunzTarPerm extractEntry docs/nopt.md
+296 silly gunzTarPerm extractEntry docs/domain.md
+297 silly gunzTarPerm extractEntry docs/marked.md
+298 silly gunzTarPerm extractEntry docs/debugger.md
+299 silly gunzTarPerm extractEntry docs/node-expat.md
+300 silly gunzTarPerm extractEntry docs/mkdirp.md
+301 silly gunzTarPerm extractEntry docs/tls.md
+302 silly gunzTarPerm extractEntry docs/readline.md
+303 silly gunzTarPerm extractEntry docs/async.md
+304 silly gunzTarPerm extractEntry docs/event-stream.md
+305 silly gunzTarPerm extractEntry docs/q.md
+306 silly gunzTarPerm extractEntry docs/filed.md
+307 silly gunzTarPerm extractEntry docs/passport-google-oauth.md
+308 silly gunzTarPerm extractEntry docs/globals.md
+309 silly gunzTarPerm extractEntry docs/rimraf.md
+310 silly gunzTarPerm extractEntry docs/traverse.md
+311 silly gunzTarPerm extractEntry docs/socket.io.md
+312 silly gunzTarPerm extractEntry docs/redis.md
+313 silly gunzTarPerm extractEntry docs/js-yaml.md
+314 silly gunzTarPerm extractEntry docs/emailjs.md
+315 silly gunzTarPerm extractEntry docs/sax.md
+316 silly gunzTarPerm extractEntry docs/http-proxy.md
+317 silly gunzTarPerm extractEntry docs/fibers.md
+318 silly gunzTarPerm extractEntry docs/jsdom.md
+319 silly gunzTarPerm extractEntry docs/http.md
+320 silly gunzTarPerm extractEntry docs/colors.md
+321 silly gunzTarPerm extractEntry docs/winston.md
+322 silly gunzTarPerm extractEntry docs/knox.md
+323 silly gunzTarPerm extractEntry docs/file.md
+324 silly gunzTarPerm extractEntry docs/step.md
+325 silly gunzTarPerm extractEntry docs/byline.md
+326 silly gunzTarPerm extractEntry docs/https.md
+327 silly gunzTarPerm extractEntry docs/qs.md
+328 silly gunzTarPerm extractEntry docs/fs.md
+329 silly gunzTarPerm extractEntry docs/forever.md
+330 silly gunzTarPerm extractEntry docs/node-uuid.md
+331 silly gunzTarPerm extractEntry docs/markdown.md
+332 silly gunzTarPerm extractEntry docs/fs-extra.md
+333 silly gunzTarPerm extractEntry docs/passport-twitter.md
+334 silly gunzTarPerm extractEntry docs/addons.md
+335 silly gunzTarPerm extractEntry docs/nodemailer.md
+336 silly gunzTarPerm extractEntry docs/url.md
+337 silly gunzTarPerm extractEntry docs/cli.md
+338 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+339 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+340 silly lockFile 8e7b4d52-14568-0-8148142341524363-tmp-tgz tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz
+341 silly lockFile 8e7b4d52-14568-0-8148142341524363-tmp-tgz tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/tmp.tgz
+342 verbose tar pack [ '/home/rashmi/.npm/nodeman/1.1.2/package.tgz',
+342 verbose tar pack   '/home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package' ]
+343 verbose tarball /home/rashmi/.npm/nodeman/1.1.2/package.tgz
+344 verbose folder /home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+345 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+346 verbose lock tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package /home/rashmi/.npm/5af2738c-14568-0-8148142341524363-package.lock
+347 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+348 verbose lock tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz /home/rashmi/.npm/3e1b8889-mi-npm-nodeman-1-1-2-package-tgz.lock
+349 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+350 silly lockFile 5af2738c-14568-0-8148142341524363-package tar:///home/rashmi/tmp/npm-28115-L7YDKRvG/1378330714568-0.8148142341524363/package
+351 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+352 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+353 silly lockFile e977a2f9-rashmi-npm-nodeman-1-1-2-package /home/rashmi/.npm/nodeman/1.1.2/package
+354 verbose lock /home/rashmi/.npm/nodeman/1.1.2/package /home/rashmi/.npm/e977a2f9-rashmi-npm-nodeman-1-1-2-package.lock
+355 silly lockFile e977a2f9-rashmi-npm-nodeman-1-1-2-package /home/rashmi/.npm/nodeman/1.1.2/package
+356 silly lockFile e977a2f9-rashmi-npm-nodeman-1-1-2-package /home/rashmi/.npm/nodeman/1.1.2/package
+357 verbose tar unpack /home/rashmi/.npm/nodeman/1.1.2/package.tgz
+358 silly lockFile f4f20605-rashmi-npm-nodeman-1-1-2-package tar:///home/rashmi/.npm/nodeman/1.1.2/package
+359 verbose lock tar:///home/rashmi/.npm/nodeman/1.1.2/package /home/rashmi/.npm/f4f20605-rashmi-npm-nodeman-1-1-2-package.lock
+360 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+361 verbose lock tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz /home/rashmi/.npm/3e1b8889-mi-npm-nodeman-1-1-2-package-tgz.lock
+362 silly gunzTarPerm modes [ '755', '644' ]
+363 silly gunzTarPerm extractEntry package.json
+364 silly gunzTarPerm extractEntry .npmignore
+365 silly gunzTarPerm extractEntry README.md
+366 silly gunzTarPerm extractEntry index.js
+367 silly gunzTarPerm extractEntry .travis.yml
+368 silly gunzTarPerm extractEntry Gruntfile.coffee
+369 silly gunzTarPerm extractEntry bin/_nodeman
+370 silly gunzTarPerm extractEntry bin/bot
+371 silly gunzTarPerm extractEntry bin/bot2
+372 silly gunzTarPerm extractEntry bin/nodeman
+373 silly gunzTarPerm extractEntry config.json
+374 silly gunzTarPerm extractEntry docs/zombie.meta.js
+375 silly gunzTarPerm extractEntry docs/emailjs.js
+376 silly gunzTarPerm extractEntry docs/rimraf.meta.js
+377 silly gunzTarPerm extractEntry docs/emailjs.meta.js
+378 silly gunzTarPerm extractEntry docs/ejs.meta.js
+379 silly gunzTarPerm extractEntry docs/event-stream.meta.js
+380 silly gunzTarPerm extractEntry docs/restify.meta.js
+381 silly gunzTarPerm extractEntry docs/eventemitter2.meta.js
+382 silly gunzTarPerm extractEntry docs/request.meta.js
+383 silly gunzTarPerm extractEntry docs/events.meta.js
+384 silly gunzTarPerm extractEntry docs/sax.meta.js
+385 silly gunzTarPerm extractEntry docs/repl.meta.js
+386 silly gunzTarPerm extractEntry docs/ejs.js
+387 silly gunzTarPerm extractEntry docs/express.meta.js
+388 silly gunzTarPerm extractEntry docs/eco.meta.js
+389 silly gunzTarPerm extractEntry docs/redis.meta.js
+390 silly gunzTarPerm extractEntry docs/semver.meta.js
+391 silly gunzTarPerm extractEntry docs/fibers.meta.js
+392 silly gunzTarPerm extractEntry docs/domain.meta.js
+393 silly gunzTarPerm extractEntry docs/fibrous.js
+394 silly gunzTarPerm extractEntry docs/should.meta.js
+395 silly gunzTarPerm extractEntry docs/readline.meta.js
+396 silly gunzTarPerm extractEntry docs/dns.meta.js
+397 silly gunzTarPerm extractEntry docs/file.meta.js
+398 silly gunzTarPerm extractEntry docs/socket.io.meta.js
+399 silly gunzTarPerm extractEntry docs/querystring.meta.js
+400 silly gunzTarPerm extractEntry docs/diff.meta.js
+401 silly gunzTarPerm extractEntry docs/filed.meta.js
+402 silly gunzTarPerm extractEntry docs/sprintf.meta.js
+403 silly gunzTarPerm extractEntry docs/fileutils.js
+404 silly gunzTarPerm extractEntry docs/dgram.meta.js
+405 silly gunzTarPerm extractEntry docs/qs.meta.js
+406 silly gunzTarPerm extractEntry docs/sqlite3.meta.js
+407 silly gunzTarPerm extractEntry docs/findit.meta.js
+408 silly gunzTarPerm extractEntry docs/debugger.meta.js
+409 silly gunzTarPerm extractEntry docs/q.meta.js
+410 silly gunzTarPerm extractEntry docs/stdio.meta.js
+411 silly gunzTarPerm extractEntry docs/forever.meta.js
+412 silly gunzTarPerm extractEntry docs/debug.meta.js
+413 silly gunzTarPerm extractEntry docs/punycode.meta.js
+414 silly gunzTarPerm extractEntry docs/step.meta.js
+415 silly gunzTarPerm extractEntry docs/formidable.meta.js
+416 silly gunzTarPerm extractEntry docs/dateformat.meta.js
+417 silly gunzTarPerm extractEntry docs/prompt.meta.js
+418 silly gunzTarPerm extractEntry docs/stream.meta.js
+419 silly gunzTarPerm extractEntry docs/fs-extra.meta.js
+420 silly gunzTarPerm extractEntry docs/custom.js
+421 silly gunzTarPerm extractEntry docs/process.meta.js
+422 silly gunzTarPerm extractEntry docs/crypto.meta.js
+423 silly gunzTarPerm extractEntry docs/fs.meta.js
+424 silly gunzTarPerm extractEntry docs/string_decoder.meta.js
+425 silly gunzTarPerm extractEntry docs/pkginfo.meta.js
+426 silly gunzTarPerm extractEntry docs/cron.meta.js
+427 silly gunzTarPerm extractEntry docs/glob.meta.js
+428 silly gunzTarPerm extractEntry docs/stylus.meta.js
+429 silly gunzTarPerm extractEntry docs/pg.meta.js
+430 silly gunzTarPerm extractEntry docs/cradle.meta.js
+431 silly gunzTarPerm extractEntry docs/globals.meta.js
+432 silly gunzTarPerm extractEntry docs/tap.meta.js
+433 silly gunzTarPerm extractEntry docs/path.meta.js
+434 silly gunzTarPerm extractEntry docs/consolidate.meta.js
+435 silly gunzTarPerm extractEntry docs/googleanalytics.meta.js
+436 silly gunzTarPerm extractEntry docs/tar.meta.js
+437 silly gunzTarPerm extractEntry docs/graceful-fs.js
+438 silly gunzTarPerm extractEntry docs/connect.meta.js
+439 silly gunzTarPerm extractEntry docs/passport-twitter.meta.js
+440 silly gunzTarPerm extractEntry docs/temp.meta.js
+441 silly gunzTarPerm extractEntry docs/handlebars.meta.js
+442 silly gunzTarPerm extractEntry docs/commander.meta.js
+443 silly gunzTarPerm extractEntry docs/passport-google-oauth.meta.js
+444 silly gunzTarPerm extractEntry docs/through.meta.js
+445 silly gunzTarPerm extractEntry docs/hashish.meta.js
+446 silly gunzTarPerm extractEntry docs/colors.meta.js
+447 silly gunzTarPerm extractEntry docs/passport-facebook.meta.js
+448 silly gunzTarPerm extractEntry docs/timers.meta.js
+449 silly gunzTarPerm extractEntry docs/hljs.meta.js
+450 silly gunzTarPerm extractEntry docs/coffee-script.meta.js
+451 silly gunzTarPerm extractEntry docs/os.meta.js
+452 silly gunzTarPerm extractEntry docs/tls.meta.js
+453 silly gunzTarPerm extractEntry docs/http-proxy.meta.js
+454 silly gunzTarPerm extractEntry docs/cluster.meta.js
+455 silly gunzTarPerm extractEntry docs/optimist.meta.js
+456 silly gunzTarPerm extractEntry docs/traverse.meta.js
+457 silly gunzTarPerm extractEntry docs/http.meta.js
+458 silly gunzTarPerm extractEntry docs/cli.meta.js
+459 silly gunzTarPerm extractEntry docs/nopt.meta.js
+460 silly gunzTarPerm extractEntry docs/tty.meta.js
+461 silly gunzTarPerm extractEntry docs/https.meta.js
+462 silly gunzTarPerm extractEntry docs/child_process.meta.js
+463 silly gunzTarPerm extractEntry docs/nodemailer.meta.js
+464 silly gunzTarPerm extractEntry docs/uglify-js.meta.js
+465 silly gunzTarPerm extractEntry docs/i18n.meta.js
+466 silly gunzTarPerm extractEntry docs/cheerio.meta.js
+467 silly gunzTarPerm extractEntry docs/node-uuid.meta.js
+468 silly gunzTarPerm extractEntry docs/underscore.meta.js
+469 silly gunzTarPerm extractEntry docs/iconv.meta.js
+470 silly gunzTarPerm extractEntry docs/byline.meta.js
+471 silly gunzTarPerm extractEntry docs/node-expat.meta.js
+472 silly gunzTarPerm extractEntry docs/url.meta.js
+473 silly gunzTarPerm extractEntry docs/imagemagick.meta.js
+474 silly gunzTarPerm extractEntry docs/buffertools.meta.js
+475 silly gunzTarPerm extractEntry docs/net.meta.js
+476 silly gunzTarPerm extractEntry docs/util.meta.js
+477 silly gunzTarPerm extractEntry docs/jade.meta.js
+478 silly gunzTarPerm extractEntry docs/bufferjs.meta.js
+479 silly gunzTarPerm extractEntry docs/mysql.meta.js
+480 silly gunzTarPerm extractEntry docs/vm.meta.js
+481 silly gunzTarPerm extractEntry docs/js-yaml.meta.js
+482 silly gunzTarPerm extractEntry docs/buffer.meta.js
+483 silly gunzTarPerm extractEntry docs/mu2.meta.js
+484 silly gunzTarPerm extractEntry docs/vows.meta.js
+485 silly gunzTarPerm extractEntry docs/jsdom.meta.js
+486 silly gunzTarPerm extractEntry docs/bower.meta.js
+487 silly gunzTarPerm extractEntry docs/mongoskin.meta.js
+488 silly gunzTarPerm extractEntry docs/walkdir.meta.js
+489 silly gunzTarPerm extractEntry docs/jshashes.meta.js
+490 silly gunzTarPerm extractEntry docs/bcrypt.meta.js
+491 silly gunzTarPerm extractEntry docs/mongoose.meta.js
+492 silly gunzTarPerm extractEntry docs/websocket.meta.js
+493 silly gunzTarPerm extractEntry docs/knox.meta.js
+494 silly gunzTarPerm extractEntry docs/base64.meta.js
+495 silly gunzTarPerm extractEntry docs/mongodb.meta.js
+496 silly gunzTarPerm extractEntry docs/winston.meta.js
+497 silly gunzTarPerm extractEntry docs/lazy.meta.js
+498 silly gunzTarPerm extractEntry docs/async.meta.js
+499 silly gunzTarPerm extractEntry docs/moment.meta.js
+500 silly gunzTarPerm extractEntry docs/wordwrap.meta.js
+501 silly gunzTarPerm extractEntry docs/markdown.meta.js
+502 silly gunzTarPerm extractEntry docs/assert.meta.js
+503 silly gunzTarPerm extractEntry docs/modules.meta.js
+504 silly gunzTarPerm extractEntry docs/wrench.meta.js
+505 silly gunzTarPerm extractEntry docs/marked.meta.js
+506 silly gunzTarPerm extractEntry docs/ansi-color.meta.js
+507 silly gunzTarPerm extractEntry docs/mocha.meta.js
+508 silly gunzTarPerm extractEntry docs/xml2js.meta.js
+509 silly gunzTarPerm extractEntry docs/JSONStream.meta.js
+510 silly gunzTarPerm extractEntry docs/addons.meta.js
+511 silly gunzTarPerm extractEntry docs/mkdirp.meta.js
+512 silly gunzTarPerm extractEntry docs/zlib.meta.js
+513 silly gunzTarPerm extractEntry docs/minimatch.meta.js
+514 silly gunzTarPerm extractEntry docs/restler.meta.js
+515 silly gunzTarPerm extractEntry docs/mime.meta.js
+516 silly gunzTarPerm extractEntry docs/rimraf.md
+517 silly gunzTarPerm extractEntry docs/mkdirp.md
+518 silly gunzTarPerm extractEntry docs/mocha.md
+519 silly gunzTarPerm extractEntry docs/mime.md
+520 silly gunzTarPerm extractEntry docs/modules.md
+521 silly gunzTarPerm extractEntry docs/marked.md
+522 silly gunzTarPerm extractEntry docs/moment.md
+523 silly gunzTarPerm extractEntry docs/markdown.md
+524 silly gunzTarPerm extractEntry docs/mongodb.md
+525 silly gunzTarPerm extractEntry docs/lazy.md
+526 silly gunzTarPerm extractEntry docs/mongoose.md
+527 silly gunzTarPerm extractEntry docs/knox.md
+528 silly gunzTarPerm extractEntry docs/mongoskin.md
+529 silly gunzTarPerm extractEntry docs/jshashes.md
+530 silly gunzTarPerm extractEntry docs/mu2.md
+531 silly gunzTarPerm extractEntry docs/jsdom.md
+532 silly gunzTarPerm extractEntry docs/mysql.md
+533 silly gunzTarPerm extractEntry docs/js-yaml.md
+534 silly gunzTarPerm extractEntry docs/net.md
+535 silly gunzTarPerm extractEntry docs/jade.md
+536 silly gunzTarPerm extractEntry docs/node-expat.md
+537 silly gunzTarPerm extractEntry docs/imagemagick.md
+538 silly gunzTarPerm extractEntry docs/node-uuid.md
+539 silly gunzTarPerm extractEntry docs/iconv.md
+540 silly gunzTarPerm extractEntry docs/nodemailer.md
+541 silly gunzTarPerm extractEntry docs/i18n.md
+542 silly gunzTarPerm extractEntry docs/nopt.md
+543 silly gunzTarPerm extractEntry docs/https.md
+544 silly gunzTarPerm extractEntry docs/optimist.md
+545 silly gunzTarPerm extractEntry docs/http.md
+546 silly gunzTarPerm extractEntry docs/os.md
+547 silly gunzTarPerm extractEntry docs/http-proxy.md
+548 silly gunzTarPerm extractEntry docs/passport-facebook.md
+549 silly gunzTarPerm extractEntry docs/hljs.md
+550 silly gunzTarPerm extractEntry docs/passport-google-oauth.md
+551 silly gunzTarPerm extractEntry docs/hashish.md
+552 silly gunzTarPerm extractEntry docs/passport-twitter.md
+553 silly gunzTarPerm extractEntry docs/handlebars.md
+554 silly gunzTarPerm extractEntry docs/path.md
+555 silly gunzTarPerm extractEntry docs/googleanalytics.md
+556 silly gunzTarPerm extractEntry docs/pg.md
+557 silly gunzTarPerm extractEntry docs/globals.md
+558 silly gunzTarPerm extractEntry docs/pkginfo.md
+559 silly gunzTarPerm extractEntry docs/glob.md
+560 silly gunzTarPerm extractEntry docs/process.md
+561 silly gunzTarPerm extractEntry docs/fs.md
+562 silly gunzTarPerm extractEntry docs/prompt.md
+563 silly gunzTarPerm extractEntry docs/fs-extra.md
+564 silly gunzTarPerm extractEntry docs/punycode.md
+565 silly gunzTarPerm extractEntry docs/formidable.md
+566 silly gunzTarPerm extractEntry docs/q.md
+567 silly gunzTarPerm extractEntry docs/forever.md
+568 silly gunzTarPerm extractEntry docs/qs.md
+569 silly gunzTarPerm extractEntry docs/findit.md
+570 silly gunzTarPerm extractEntry docs/querystring.md
+571 silly gunzTarPerm extractEntry docs/filed.md
+572 silly gunzTarPerm extractEntry docs/readline.md
+573 silly gunzTarPerm extractEntry docs/file.md
+574 silly gunzTarPerm extractEntry docs/redis.md
+575 silly gunzTarPerm extractEntry docs/fibers.md
+576 silly gunzTarPerm extractEntry docs/repl.md
+577 silly gunzTarPerm extractEntry docs/express.md
+578 silly gunzTarPerm extractEntry docs/request.md
+579 silly gunzTarPerm extractEntry docs/events.md
+580 silly gunzTarPerm extractEntry docs/restify.md
+581 silly gunzTarPerm extractEntry docs/eventemitter2.md
+582 silly gunzTarPerm extractEntry docs/restler.md
+583 silly gunzTarPerm extractEntry docs/event-stream.md
+584 silly gunzTarPerm extractEntry docs/minimatch.md
+585 silly gunzTarPerm extractEntry docs/emailjs.md
+586 silly gunzTarPerm extractEntry docs/sax.md
+587 silly gunzTarPerm extractEntry docs/ejs.md
+588 silly gunzTarPerm extractEntry docs/semver.md
+589 silly gunzTarPerm extractEntry docs/eco.md
+590 silly gunzTarPerm extractEntry docs/should.md
+591 silly gunzTarPerm extractEntry docs/domain.md
+592 silly gunzTarPerm extractEntry docs/socket.io.md
+593 silly gunzTarPerm extractEntry docs/dns.md
+594 silly gunzTarPerm extractEntry docs/sprintf.md
+595 silly gunzTarPerm extractEntry docs/diff.md
+596 silly gunzTarPerm extractEntry docs/sqlite3.md
+597 silly gunzTarPerm extractEntry docs/dgram.md
+598 silly gunzTarPerm extractEntry docs/stdio.md
+599 silly gunzTarPerm extractEntry docs/debugger.md
+600 silly gunzTarPerm extractEntry docs/step.md
+601 silly gunzTarPerm extractEntry docs/debug.md
+602 silly gunzTarPerm extractEntry docs/stream.md
+603 silly gunzTarPerm extractEntry docs/dateformat.md
+604 silly gunzTarPerm extractEntry docs/string_decoder.md
+605 silly gunzTarPerm extractEntry docs/crypto.md
+606 silly gunzTarPerm extractEntry docs/stylus.md
+607 silly gunzTarPerm extractEntry docs/cron.md
+608 silly gunzTarPerm extractEntry docs/tap.md
+609 silly gunzTarPerm extractEntry docs/cradle.md
+610 silly gunzTarPerm extractEntry docs/tar.md
+611 silly gunzTarPerm extractEntry docs/consolidate.md
+612 silly gunzTarPerm extractEntry docs/temp.md
+613 silly gunzTarPerm extractEntry docs/connect.md
+614 silly gunzTarPerm extractEntry docs/through.md
+615 silly gunzTarPerm extractEntry docs/commander.md
+616 silly gunzTarPerm extractEntry docs/timers.md
+617 silly gunzTarPerm extractEntry docs/colors.md
+618 silly gunzTarPerm extractEntry docs/tls.md
+619 silly gunzTarPerm extractEntry docs/coffee-script.md
+620 silly gunzTarPerm extractEntry docs/traverse.md
+621 silly gunzTarPerm extractEntry docs/cluster.md
+622 silly gunzTarPerm extractEntry docs/tty.md
+623 silly gunzTarPerm extractEntry docs/cli.md
+624 silly gunzTarPerm extractEntry docs/uglify-js.md
+625 silly gunzTarPerm extractEntry docs/child_process.md
+626 silly gunzTarPerm extractEntry docs/underscore.md
+627 silly gunzTarPerm extractEntry docs/cheerio.md
+628 silly gunzTarPerm extractEntry docs/url.md
+629 silly gunzTarPerm extractEntry docs/byline.md
+630 silly gunzTarPerm extractEntry docs/util.md
+631 silly gunzTarPerm extractEntry docs/buffertools.md
+632 silly gunzTarPerm extractEntry docs/vm.md
+633 silly gunzTarPerm extractEntry docs/bufferjs.md
+634 silly gunzTarPerm extractEntry docs/vows.md
+635 silly gunzTarPerm extractEntry docs/buffer.md
+636 silly gunzTarPerm extractEntry docs/walkdir.md
+637 silly gunzTarPerm extractEntry docs/bower.md
+638 silly gunzTarPerm extractEntry docs/websocket.md
+639 silly gunzTarPerm extractEntry docs/bcrypt.md
+640 silly gunzTarPerm extractEntry docs/winston.md
+641 silly gunzTarPerm extractEntry docs/base64.md
+642 silly gunzTarPerm extractEntry docs/wordwrap.md
+643 silly gunzTarPerm extractEntry docs/async.md
+644 silly gunzTarPerm extractEntry docs/wrench.md
+645 silly gunzTarPerm extractEntry docs/assert.md
+646 silly gunzTarPerm extractEntry docs/xml2js.md
+647 silly gunzTarPerm extractEntry docs/ansi-color.md
+648 silly gunzTarPerm extractEntry docs/zlib.md
+649 silly gunzTarPerm extractEntry docs/addons.md
+650 silly gunzTarPerm extractEntry docs/zombie.md
+651 silly gunzTarPerm extractEntry docs/JSONStream.md
+652 silly gunzTarPerm extractEntry lib/mustache.js
+653 silly gunzTarPerm extractEntry lib/nodeman.js
+654 silly gunzTarPerm extractEntry lib/showdown.js
+655 silly gunzTarPerm extractEntry lib/extensions/github.js
+656 silly gunzTarPerm extractEntry lib/extensions/prettify.js
+657 silly gunzTarPerm extractEntry lib/extensions/table.js
+658 silly gunzTarPerm extractEntry lib/extensions/twitter.js
+659 silly lockFile f4f20605-rashmi-npm-nodeman-1-1-2-package tar:///home/rashmi/.npm/nodeman/1.1.2/package
+660 silly lockFile f4f20605-rashmi-npm-nodeman-1-1-2-package tar:///home/rashmi/.npm/nodeman/1.1.2/package
+661 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+662 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+663 verbose chmod /home/rashmi/.npm/nodeman/1.1.2/package.tgz 644
+664 verbose chown /home/rashmi/.npm/nodeman/1.1.2/package.tgz [ 1000, 1000 ]
+665 silly lockFile d2d4d0cc-js-org-nodeman-nodeman-1-1-2-tgz https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz
+666 silly lockFile d2d4d0cc-js-org-nodeman-nodeman-1-1-2-tgz https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz
+667 silly lockFile 0d5fc0f0-nodeman-1-1-2 nodeman@1.1.2
+668 silly lockFile 0d5fc0f0-nodeman-1-1-2 nodeman@1.1.2
+669 silly lockFile 9443f39e-nodeman nodeman@
+670 silly lockFile 9443f39e-nodeman nodeman@
+671 silly resolved [ { author: { name: 'nanhapark', email: 'http://about.me/nanha' },
+671 silly resolved     name: 'nodeman',
+671 silly resolved     description: 'Executable Node.js User\'s Colorful Manual for Command-line.',
+671 silly resolved     homepage: 'http://manual.nodeman.org',
+671 silly resolved     version: '1.1.2',
+671 silly resolved     repository: { type: 'git', url: 'git://github.com/nanha/nodeman.git' },
+671 silly resolved     bin: { nodeman: './bin/nodeman', _nodeman: './bin/_nodeman' },
+671 silly resolved     main: 'lib/nodeman.js',
+671 silly resolved     dependencies: { colors: '*' },
+671 silly resolved     devDependencies: { grunt: '*', 'grunt-contrib-jshint': '~0.3.0' },
+671 silly resolved     scripts: { test: 'grunt --verbose' },
+671 silly resolved     engines: { node: '*' },
+671 silly resolved     readme: '[![Build Status](https://travis-ci.org/nanha/nodeman.png?branch=master)](https://travis-ci.org/nanha/nodeman)\n\n소개\n====\n\n  문서를 브라우져로만 봐야 하나요? 저의 개발환경은 vim. 저는 참 vim 을 좋아하는데요. 암튼 man 명령어를 node.js 용으로 만들어보자.\n\n  Node.js Core Module 부터 각종 3rd party module 유용한 것이면, 모두 제공할 수 있도록 지속적인 업데이트\n  \n  [소개 웹페이지](http://manual.nodeman.org)\n  \n  \n설치\n====\n\n    npm install nodeman -g\n\n업데이트\n========\n\n    npm update nodeman -g\n\n\n사용방법\n======\n\n## help\n\n    $ nodeman -h\n\n## 포함된 모듈을 카테고리별로 보기\n\n    $ nodeman -b\n\n## node.js doc 에 포함된 http NativeModule 보기\n\n    $ nodeman http\n\n## async module\n\n    $ nodeman async\n\n문서추가 방법\n==============\n\ndocs 디렉토리안에 moduleName.meta.js, modulename.md 규칙으로 생성되어야 합니다.\n\n## moduleName.meta.js\n\n    exports.name = \'moduleName\';\n    exports.category = \'none\';\n    exports.homepage = \'http://homepage\';\n\n## moduleName.md\n\nMarkdown 형식으로 작성\n\n',
+671 silly resolved     readmeFilename: 'README.md',
+671 silly resolved     bugs: { url: 'https://github.com/nanha/nodeman/issues' },
+671 silly resolved     _id: 'nodeman@1.1.2',
+671 silly resolved     dist: { shasum: 'ce9c7c281af63804fdeaca02b9415d6dc3cbb495' },
+671 silly resolved     _from: 'nodeman@',
+671 silly resolved     _resolved: 'https://registry.npmjs.org/nodeman/-/nodeman-1.1.2.tgz' } ]
+672 info install nodeman@1.1.2 into /usr/local/lib
+673 info installOne nodeman@1.1.2
+674 info /usr/local/lib/node_modules/nodeman unbuild
+675 verbose tar unpack /home/rashmi/.npm/nodeman/1.1.2/package.tgz
+676 silly lockFile 7f2074f5-r-local-lib-node-modules-nodeman tar:///usr/local/lib/node_modules/nodeman
+677 verbose lock tar:///usr/local/lib/node_modules/nodeman /home/rashmi/.npm/7f2074f5-r-local-lib-node-modules-nodeman.lock
+678 silly lockFile 3e1b8889-mi-npm-nodeman-1-1-2-package-tgz tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz
+679 verbose lock tar:///home/rashmi/.npm/nodeman/1.1.2/package.tgz /home/rashmi/.npm/3e1b8889-mi-npm-nodeman-1-1-2-package-tgz.lock
+680 silly gunzTarPerm modes [ '755', '644' ]
+681 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeman'
+681 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeman']
+681 error   errno: 3,
+681 error   code: 'EACCES',
+681 error   path: '/usr/local/lib/node_modules/nodeman',
+681 error   fstream_type: 'Directory',
+681 error   fstream_path: '/usr/local/lib/node_modules/nodeman',
+681 error   fstream_class: 'DirWriter',
+681 error   fstream_stack:
+681 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+681 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+681 error      'Object.oncomplete (fs.js:107:15)' ] }
+682 error Please try running this command again as root/Administrator.
+683 error System Linux 3.2.0-32-generic
+684 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "nodeman"
+685 error cwd /home/rashmi/express_ex
+686 error node -v v0.10.17
+687 error npm -v 1.3.8
+688 error path /usr/local/lib/node_modules/nodeman
+689 error fstream_path /usr/local/lib/node_modules/nodeman
+690 error fstream_type Directory
+691 error fstream_class DirWriter
+692 error code EACCES
+693 error errno 3
+694 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeman'
+695 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+695 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+695 error fstream_stack Object.oncomplete (fs.js:107:15)
+696 verbose exit [ 3, true ]

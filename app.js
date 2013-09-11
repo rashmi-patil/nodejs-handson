@@ -5,10 +5,12 @@
 
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/user');
+//var user = require('./routes/user');
+var farmer = require('./routes/farmer');
 var http = require('http');
 var path = require('path');
-
+//var mysql = require('mysql');
+//var db = require('db');
 var app = express();
 
 // all environments
@@ -29,7 +31,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+//app.get('/users', user.list);
+app.post('/login',farmer.login_action);
+app.get('/login',farmer.login);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
